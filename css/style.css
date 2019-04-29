@@ -1,0 +1,39 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  max-height: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+.row{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.content{
+  height: 150px;
+  width: 150px;
+}
+
+.scoreboard{
+  display: flex;
+  flex-direction: column;
+}
+
+.game-buttons{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.game-buttons > button {
+  margin: 50px 15px 15px 15px;
+}
+header{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
