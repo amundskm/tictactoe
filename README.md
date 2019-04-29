@@ -1,9 +1,9 @@
 # THE Odin Project: Tic-Tac-Toe
 
 ## Knowns:
-  * Using factories and modules, build a tic tac toe game that can be played in the browser.
-  * Limit the use of global variables
-  * Use HTML, CSS, and Javascript to build the game.
+* Using factories and modules, build a tic tac toe game that can be played in the browser.
+* Limit the use of global variables
+* Use HTML, CSS, and Javascript to build the game.
 
 ## Objectives:
 #### Build The Game:
