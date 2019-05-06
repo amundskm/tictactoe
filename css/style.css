@@ -1,3 +1,9 @@
+header{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -11,6 +17,10 @@
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+#game{
+  display: none;
 }
 
 .content{
@@ -31,8 +41,8 @@
   font-size: 20px;
 }
 
-.game-buttons{
-  display: flex;
+#game-buttons{
+  display: none;
   width: 50%;
   justify-content: center;
 }
@@ -41,8 +51,33 @@
   margin: 50px 15px 15px 15px;
 }
 
-header{
+#start {
+  position: relative;
+
+}
+
+#input-names {
+  display:none;
+  position: relative;
+  width: 450px;
+}
+
+.row.input {
   display: flex;
-  justify-content: center;
-  height: 300px;
+  flex-direction: column;
+}
+
+.num-players-btn {
+  background-color: #008CBA;
+  font-size: 36px;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+.row.buttons{
+  display: flex;
+  justify-content: space-around;
+
 }
